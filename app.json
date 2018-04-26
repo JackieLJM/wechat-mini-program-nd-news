@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#34A2E4",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "快读·资讯",
+    "enablePullDownRefresh": true
+  },
+  "tabBar":{
+    "backgroundColor":"#34A2E4",
+    "position":"top",
+    "list":[{"pagePath":"pages/index/index","text":"a"},{"pagePath": "pages/detail/detail","text":"b"}]
+
+  }
+}
